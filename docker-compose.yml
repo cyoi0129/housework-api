@@ -20,7 +20,7 @@ services:
 
   # golang アプリケーション
   app:
-    container_name: workoput_app
+    container_name: housework_app
     # postgres をビルドした後に app をビルド
     depends_on:
       - db
